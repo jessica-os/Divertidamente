@@ -1,0 +1,15 @@
+:root{
+    --amarelo: hsl(52, 94%, 62%);
+    --sombra-amarelo: hsla(52, 94%, 62%, 0.267);
+    --vermelho:#dc1e10;
+    --sombra-vermelho:#dc1e1044;
+    --azul:#3c5dfe;
+    --sombra-azul:#3c5dfe44;
+    --verde:#3cfe76;
+    --sombra-verde:#3cfe7644;
+    --roxo:#bb6ff1;
+    --sombra-roxo:#bb6ff144;
+    --laranja:#ffa500; 
+    --sombra-laranja:#ffa50044;
+    --sombra: rgba(0, 0, 0, 0.29);
+}

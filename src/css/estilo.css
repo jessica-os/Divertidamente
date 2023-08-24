@@ -1,0 +1,171 @@
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 300px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 40px;
+  min-height: calc(100vh -239px);
+}
+.container .personagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 625px;
+  gap: 25px;
+}
+.container .personagens .titulo {
+  font-size: 20px;
+  letter-spacing: 4px;
+  border-bottom: 3px solid var(--laranja);
+  width: 100%;
+  text-align: center;
+  padding: 2px;
+}
+.personagens .lista-de-personagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.personagens .lista-de-personagens img {
+  width: 150px;
+  height: 150px;
+  box-shadow: 3px 2px 10px 5px var(--sombra);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.container .personagem-selecionado {
+  text-align: center;
+  max-height: 400px;
+  max-width: 500px;
+}
+.lista-de-personagens .personagem.selecionado {
+  box-shadow: 0px 0px 24px 5px var(--laranja);
+}
+
+.personagem-selecionado img {
+  width: 200px;
+}
+.personagem-selecionado .nome-personagem {
+  border-bottom: 3px solid var(--laranja);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+.informacoes-personagem .descricao-personagem {
+  font-size: 18px;
+  text-align: left;
+  max-width: 350px;
+  margin-top: 30px;
+  display: flex;
+  margin: 10px auto;
+}
+
+.bolhas {
+  display: flex;
+}
+.bolhas-riley .span {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: var(--laranja);
+  box-shadow: 0 0 0 10px var(--sombra-laranja), 0 0 50px var(--laranja),
+    0 0 100px var(--laranja);
+  animation: animar calc(30s / var(--i)) linear infinite;
+  display: flex;
+}
+.bolhas-riley {
+  display: none;
+}
+.bolhas-alegria .span {
+  width: 30px;
+  height: 30px;
+  background-color: var(--amarelo);
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px var(--sombra-amarelo), 0 0 50px var(--amarelo),
+    0 0 100px var(--amarelo);
+  animation: animar calc(30s / var(--i)) linear infinite;
+  display: flex;
+}
+.bolhas-alegria {
+  display: none;
+}
+
+.bolhas-raiva .span {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: var(--vermelho);
+  box-shadow: 0 0 0 10px var(--sombra-vermelho), 0 0 50px var(--vermelho),
+    0 0 100px var(--vermelho);
+  animation: animar calc(30s / var(--i)) linear infinite;
+  display: flex;
+}
+.bolhas-raiva {
+  display: none;
+}
+.bolhas-tristeza .span {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: var(--azul);
+  box-shadow: 0 0 0 10px var(--sombra-azul), 0 0 50px var(--azul),
+    0 0 100px var(--azul);
+  animation: animar calc(30s / var(--i)) linear infinite;
+  display: flex;
+}
+.bolhas-tristeza {
+  display: none;
+}
+.bolhas-nojinho .span {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: var(--verde);
+  box-shadow: 0 0 0 10px var(--sombra-verde), 0 0 50px var(--verde),
+    0 0 100px var(--verde);
+  animation: animar calc(30s / var(--i)) linear infinite;
+  display: flex;
+}
+.bolhas-nojinho {
+  display: none;
+}
+.bolhas-medo .span {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: var(--roxo);
+  box-shadow: 0 0 0 10px var(--sombra-roxo), 0 0 50px var(--roxo),
+    0 0 100px var(--roxo);
+  animation: animar calc(30s / var(--i)) linear infinite;
+  display: flex;
+}
+.bolhas-medo {
+  display: none;
+}
+@keyframes animar {
+  0% {
+    transform: translateY(100vh) scale(0);
+  }
+  100% {
+    transform: translateY(-10vh) scale(1);
+  }
+}
