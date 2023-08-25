@@ -10,10 +10,6 @@ personagens.forEach((personagem) => {
 
     alterarDescricaoPersonagem(personagem);
     alterarBolhaPersonagem(personagem);
-
-    if (window.innerWidth < 450) {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
   });
 });
 
