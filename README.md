@@ -35,4 +35,4 @@ mostrando seu nome e sua descrição.
 ### Mobile:
  <img src="./src/videos-readme/divertidamente-mobile.gif" alt="gravacao do projeto mobile">
 
-Para ver o projeto pronto, [clique aqui!](https://jessica-os.github.io/Divertidamente/)
+Para ver o projeto pronto, [CLIQUE AQUI!](https://jessica-os.github.io/Divertidamente/)
