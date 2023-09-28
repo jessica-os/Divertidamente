@@ -1,5 +1,8 @@
 # Divertidamente
 
+### Veja como ficou o projeto em diferentes tamanhos de tela:
+<img src="./src/videos-readme/divertidamente-video.gif" alt="video do projeto">
+
 ## Do que se trata esse projeto?
 Este projeto trata-se de uma página interativa sobre o filme Divertidamente. É possível conhecer os personagens
 e um pequeno resumo sobre eles.
@@ -23,16 +26,5 @@ mostrando seu nome e sua descrição.
 
 - JAVASCRIPT  <img align="center" alt="JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
           
-
-## Veja como ficou:
-
-### Desktop:
- <img src="./src/videos-readme/divertidamente-desktop.gif" alt="gravacao do projeto desktop">
- 
-### Tablet:
-<img src="./src/videos-readme/divertidamente-tablet.gif" alt="gravacao do projeto tablet">
-
-### Mobile:
- <img src="./src/videos-readme/divertidamente-mobile.gif" alt="gravacao do projeto mobile">
 
 Para ver o projeto pronto, [CLIQUE AQUI!](https://jessica-os.github.io/Divertidamente/)
