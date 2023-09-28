@@ -28,6 +28,7 @@ header {
   letter-spacing: 4px;
   border-bottom: 3px solid var(--laranja);
   margin-bottom: 50px;
+  text-align: center;
 }
 .personagens .lista-de-personagens {
   display: flex;
